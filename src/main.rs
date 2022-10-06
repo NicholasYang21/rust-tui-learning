@@ -9,7 +9,12 @@ use tui::{
     style::Color::*,
     Terminal
 };
-use crossterm::{event::read, event::{EnableMouseCapture}, execute, terminal::{enable_raw_mode, EnterAlternateScreen}, event};
+use crossterm::{
+    event::read, event::{EnableMouseCapture}, 
+    execute, 
+    terminal::{enable_raw_mode, disable_raw_mode, EnterAlternateScreen}, 
+    event
+};
 use crossterm::event::KeyCode::Esc;
 use tui::text::Span;
 
@@ -65,6 +70,8 @@ fn main() -> Result<(), io::Error> {
             }
         }
     }
+
+    disable_raw_mode()?;
 
     Ok(())
 }

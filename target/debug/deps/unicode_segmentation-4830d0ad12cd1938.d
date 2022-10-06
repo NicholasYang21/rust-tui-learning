@@ -1,0 +1,11 @@
+/home/ink/rust-tui-learning/target/debug/deps/unicode_segmentation-4830d0ad12cd1938.rmeta: /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/lib.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/grapheme.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/sentence.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/word.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/tables.rs
+
+/home/ink/rust-tui-learning/target/debug/deps/libunicode_segmentation-4830d0ad12cd1938.rlib: /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/lib.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/grapheme.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/sentence.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/word.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/tables.rs
+
+/home/ink/rust-tui-learning/target/debug/deps/unicode_segmentation-4830d0ad12cd1938.d: /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/lib.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/grapheme.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/sentence.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/word.rs /home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/tables.rs
+
+/home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/lib.rs:
+/home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/grapheme.rs:
+/home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/sentence.rs:
+/home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/word.rs:
+/home/ink/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-segmentation-1.10.0/src/tables.rs:
