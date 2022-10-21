@@ -1,4 +1,4 @@
-use std::{io};
+use std::io;
 use tui::{
     backend::CrosstermBackend,
     backend::Backend,
@@ -9,12 +9,14 @@ use tui::{
     style::Color::*,
     Terminal
 };
+
 use crossterm::{
     event::read, event::{EnableMouseCapture}, 
     execute, 
     terminal::{enable_raw_mode, disable_raw_mode, EnterAlternateScreen}, 
     event
 };
+
 use crossterm::event::KeyCode::Esc;
 use tui::text::Span;
 
