@@ -7,23 +7,21 @@ use crossterm::{
     terminal::{
         disable_raw_mode,
         enable_raw_mode,
-        EnterAlternateScreen}
+        EnterAlternateScreen,
+        LeaveAlternateScreen
+    }
 };
-use crossterm::terminal::LeaveAlternateScreen;
 
 use tui::{
-    backend::CrosstermBackend,
-    backend::Backend,
-    Frame,
-    widgets::{Block, Borders},
-    layout::{Layout, Constraint, Direction},
-    style::Style,
-    style::Color::*,
-    Terminal
-};
+    backend::{ CrosstermBackend, Backend },
+    style::{ Style, Color::* },
+    widgets::{ Block, Borders, Clear },
+    layout::{ Layout, Constraint, Direction },
+    text::{ Span },
 
-use tui::text::Span;
-use tui::widgets::Clear;
+    Frame,
+    Terminal,
+};
 
 fn ui<B: Backend>(f: &mut Frame<B>) {
     let chunks = Layout::default()
