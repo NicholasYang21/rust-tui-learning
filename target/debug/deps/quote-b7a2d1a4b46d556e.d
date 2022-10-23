@@ -1,0 +1,13 @@
+/home/nicho/rust-tui-learning/target/debug/deps/quote-b7a2d1a4b46d556e.rmeta: /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/lib.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/ext.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/format.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/ident_fragment.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/to_tokens.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/runtime.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/spanned.rs
+
+/home/nicho/rust-tui-learning/target/debug/deps/libquote-b7a2d1a4b46d556e.rlib: /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/lib.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/ext.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/format.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/ident_fragment.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/to_tokens.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/runtime.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/spanned.rs
+
+/home/nicho/rust-tui-learning/target/debug/deps/quote-b7a2d1a4b46d556e.d: /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/lib.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/ext.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/format.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/ident_fragment.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/to_tokens.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/runtime.rs /home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/spanned.rs
+
+/home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/lib.rs:
+/home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/ext.rs:
+/home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/format.rs:
+/home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/ident_fragment.rs:
+/home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/to_tokens.rs:
+/home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/runtime.rs:
+/home/nicho/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/quote-1.0.21/src/spanned.rs:
