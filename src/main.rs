@@ -29,8 +29,8 @@ fn ui<B: Backend>(f: &mut Frame<B>) {
         .margin(1)
         .constraints(
             [
-                Constraint::Percentage(30),
-                Constraint::Percentage(70),
+                Constraint::Percentage(50),
+                Constraint::Percentage(50),
             ].as_ref()
         )
         .split(f.size());
