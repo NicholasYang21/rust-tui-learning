@@ -1,4 +1,7 @@
-use rust_tui_learning::tui_rs::helloworld;
+pub mod tui_rs;
+pub mod cursive_tui;
+
+use cursive_tui::helloworld;
 
 use std::io;
 

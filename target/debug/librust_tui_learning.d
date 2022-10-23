@@ -1,1 +1,0 @@
-/home/nicho/rust-tui-learning/target/debug/librust_tui_learning.rlib: /home/nicho/rust-tui-learning/src/lib.rs /home/nicho/rust-tui-learning/src/tui_rs/helloworld.rs /home/nicho/rust-tui-learning/src/tui_rs/mod.rs

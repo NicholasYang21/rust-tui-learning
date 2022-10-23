@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 tui = "*"
 crossterm = "*"
+cursive = "*"
+ncurses = "5.101.0"
