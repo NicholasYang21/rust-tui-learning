@@ -1,1 +1,1 @@
-/home/nicho/rust-tui-learning/target/debug/rust-tui-learning: /home/nicho/rust-tui-learning/src/main.rs
+/home/nicho/rust-tui-learning/target/debug/rust-tui-learning: /home/nicho/rust-tui-learning/src/main.rs /home/nicho/rust-tui-learning/src/tui_rs/helloworld.rs /home/nicho/rust-tui-learning/src/tui_rs/mod.rs
