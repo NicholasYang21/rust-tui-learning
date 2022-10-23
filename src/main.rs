@@ -59,8 +59,9 @@ fn clear<B: Backend>(f: &mut Frame<B>) {
 fn main() -> Result<(), io::Error> {
     enable_raw_mode()?;
 
+    execute!(io::stdout(), EnterAlternateScreen)?;
+
     let mut stdout = io::stdout();
-    execute!(stdout, EnterAlternateScreen)?;
     let backend = CrosstermBackend::new(&mut stdout);
     let mut terminal = Terminal::new(backend)?;
 
