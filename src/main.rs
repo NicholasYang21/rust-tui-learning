@@ -1,5 +1,4 @@
-mod tui_rs;
-use tui_rs::helloworld;
+use rust_tui_learning::tui_rs::helloworld;
 
 use std::io;
 
