@@ -1,1 +1,1 @@
-/home/ink/rust-tui-learning/target/debug/rust-tui-learning: /home/ink/rust-tui-learning/src/main.rs
+/home/nicho/rust-tui-learning/target/debug/rust-tui-learning: /home/nicho/rust-tui-learning/src/main.rs
