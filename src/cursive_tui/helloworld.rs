@@ -1,20 +1,27 @@
 extern crate cursive;
 
 use std::io;
-use cursive::views::TextView;
 use cursive::{Cursive, CursiveExt};
-use cursive::event::Key::Esc;
+use cursive::align::HAlign;
+use cursive::views::{Dialog, SelectView, TextView};
 
 pub fn start() -> Result<(), io::Error> {
+    let mut time_select = SelectView::new().h_align(HAlign::Center);
+    time_select.add_item("Short", 1);
+    time_select.add_item("Medium", 5);
+    time_select.add_item("Long", 10);
+
+    time_select.set_on_submit(|s, time| {
+        s.pop_layer();
+        let text = format!("You will wait for {} minutes...", time);
+        s.add_layer(
+            Dialog::around(TextView::new(text)).button("Quit", |s| s.quit()),
+        );
+    });
+
     let mut siv = Cursive::new();
-
-
-    siv.add_layer(TextView::new("Hello World!\nPress q or esc to quit."));
-
-    siv.add_global_callback('q', |s| s.quit());
-    siv.add_global_callback(Esc, |s| s.quit());
+    siv.add_layer(Dialog::around(time_select).title("How long is your wait?"));
 
     siv.run();
-
     Ok(())
 }
