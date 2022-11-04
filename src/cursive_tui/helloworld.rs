@@ -3,6 +3,7 @@ extern crate cursive;
 use std::io;
 use cursive::{Cursive, CursiveExt};
 use cursive::align::HAlign;
+use cursive::event::Event::Char;
 use cursive::views::{Dialog, SelectView, TextView};
 
 pub fn start() -> Result<(), io::Error> {
@@ -18,9 +19,7 @@ pub fn start() -> Result<(), io::Error> {
             Dialog::around(TextView::new(text)).dismiss_button("close")
         );
 
-        s.pop_layer();
         s.add_layer(x)
-
     });
 
     let mut siv = Cursive::new();
