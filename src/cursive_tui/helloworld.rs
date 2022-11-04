@@ -7,16 +7,20 @@ use cursive::views::{Dialog, SelectView, TextView};
 
 pub fn start() -> Result<(), io::Error> {
     let mut time_select = SelectView::new().h_align(HAlign::Center);
-    time_select.add_item("Short", 1);
-    time_select.add_item("Medium", 5);
-    time_select.add_item("Long", 10);
+    time_select.add_item("Short", 5);
+    time_select.add_item("Medium", 12);
+    time_select.add_item("Long", 25);
 
     time_select.set_on_submit(|s, time| {
-        s.pop_layer();
-        let text = format!("You will wait for {} minutes...", time);
+        let x = s.pop_layer().unwrap();
+        let text = format!("You will wait for {} seconds...", time);
         s.add_layer(
-            Dialog::around(TextView::new(text)).button("Quit", |s| s.quit()),
+            Dialog::around(TextView::new(text)).dismiss_button("close")
         );
+
+        s.pop_layer();
+        s.add_layer(x)
+
     });
 
     let mut siv = Cursive::new();
