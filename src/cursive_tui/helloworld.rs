@@ -1,6 +1,6 @@
-use std::io;
-use cursive::{Cursive, CursiveExt};
 use cursive::views::TextView;
+use cursive::{Cursive, CursiveExt};
+use std::io;
 
 pub fn start() -> Result<(), io::Error> {
     // create a Cursive program
@@ -10,7 +10,7 @@ pub fn start() -> Result<(), io::Error> {
     siv.add_layer(
         // this view can shows some texts to the terminal.
         // (texts to show are as the field 'content' to instantiate the TextView)
-        TextView::new("Hello, world!\nPress 'q' to exit.")
+        TextView::new("Hello, world!\nPress 'q' to exit."),
     );
 
     // add a callback function to the program
