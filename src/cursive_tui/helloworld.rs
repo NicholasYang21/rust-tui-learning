@@ -22,10 +22,10 @@ pub fn start() -> Result<(), io::Error> {
 
     let mut siv = Cursive::new();
     siv.add_layer(Dialog::around(time_select).title("How long is your wait?"));
+    
+    siv.add_global_callback('q', |s| s.quit());
 
     siv.run();
-
-    siv.add_global_callback('q', |s| s.quit());
 
     Ok(())
 }
