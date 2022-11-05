@@ -1,7 +1,7 @@
 pub mod tui_rs;
 pub mod cursive_tui;
 
-use tui_rs::helloworld;
+use cursive_tui::helloworld;
 
 use std::io;
 
