@@ -1,30 +1,25 @@
-extern crate cursive;
-
 use std::io;
 use cursive::{Cursive, CursiveExt};
-use cursive::align::HAlign;
-use cursive::views::{Dialog, SelectView, TextView};
+use cursive::views::TextView;
 
 pub fn start() -> Result<(), io::Error> {
-    let mut time_select = SelectView::new().h_align(HAlign::Center);
-    time_select.add_item("Short", 5);
-    time_select.add_item("Medium", 12);
-    time_select.add_item("Long", 25);
-
-    time_select.set_on_submit(|s, time| {
-        let text = format!("You will wait for {} seconds...", time);
-        s.add_layer(
-            Dialog::around(TextView::new(text)).button("close", |q| {
-                q.pop_layer();
-            })
-        );
-    });
-
+    // create a Cursive program
     let mut siv = Cursive::new();
-    siv.add_layer(Dialog::around(time_select).title("How long is your wait?"));
-    
+
+    // add a TextView layer(window) to the program
+    siv.add_layer(
+        // this view can shows some texts to the terminal.
+        // (texts to show are as the field 'content' to instantiate the TextView)
+        TextView::new("Hello, world!\nPress 'q' to exit.")
+    );
+
+    // add a callback function to the program
+    // it means that the program will quit when user presses the key 'q'
     siv.add_global_callback('q', |s| s.quit());
 
+    // ^^^^^^^ Settings to the program ^^^^^^^
+
+    // run the program
     siv.run();
 
     Ok(())
