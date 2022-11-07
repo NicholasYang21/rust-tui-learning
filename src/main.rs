@@ -1,9 +1,9 @@
 pub mod cursive_tui;
 
-use cursive_tui::helloworld;
+use cursive_tui::*;
 
 use std::io;
 
 fn main() -> Result<(), io::Error> {
-    helloworld::start()
+    text_area::start()
 }
